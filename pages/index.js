@@ -104,56 +104,74 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-72">
-            <img src="/img/visual-csa.jpg" alt="" width={390} height={610} />
+            <Image src="/img/visual-csa.jpg" alt="" width={390} height={410} />
           </div>
         </section>
       </main>
 
-      <main className="flex text-center align-middle justify-center">
-        <section>
-          <h1>
-            <strong>Meet Americas Anti-Aging Doctor</strong>
-          </h1>
+      <main className="flex text-center align-middle justify-center bg-sky-100">
+        <section className="flex justify-around  p-24">
+          <div className="">
+            <h1 className="text-8xl text-black flex justify-center text-center  ml-72">
+              <strong className="text-5xl text-black ">
+                Meet Americas Anti-Aging Doctor
+              </strong>
+            </h1>
 
-          <p>Hi, my name is Dr Anthony Capasso.</p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              <strong className="leading-7 text-2xl text-slate-800 m-6">
+                Hi, my name is Dr Anthony Capasso.
+              </strong>
+            </p>
 
-          <p className="visual right fancy">
-            <img
-              className="mobile-3of4-width tablet-1of3-width"
-              src="web/i/visual-capasso.jpg"
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              {/* <img
+                className="mobile-3of4-width tablet-1of3-width"
+                src="web/i/visual-capasso.jpg"
+                alt=""
+              /> */}
+            </p>
+
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              Ive been practicing Internal Medicine for 26 years.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              Like Dr House from the TV show, I solve uncrackable health
+              mysteries like a medical Sherlock Holmes.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              And one of the biggest riddles Ive tackled is the problem of brain
+              fog.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              More and more patients are feeling spaced out, scattered and
+              forgetful nowadays.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6 font-normal">
+              And not elderly folks in their final years like youd expect, but
+              younger people in their 40s, 50s and 60s.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              For some, its just the embarrassment of “Senior Moments” that
+              worries them, but for others it gets downright scary&hellip;
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              Making it hard to do their jobs, putting stress on their families,
+              or even threatening their independence.
+            </p>
+            <p className="leading-7 text-xl text-slate-800 m-6">
+              But to solve the mystery, first we need to understand the real
+              reason folks get brain fog.
+            </p>
+          </div>
+          <div className="mt-52">
+            <Image
+              src="/img/visual-capasso.jpg"
               alt=""
+              width={500}
+              height={550}
             />
-          </p>
-
-          <p>Ive been practicing Internal Medicine for 26 years.</p>
-          <p>
-            Like Dr House from the TV show, I solve uncrackable health mysteries
-            like a medical Sherlock Holmes.
-          </p>
-          <p>
-            And one of the biggest riddles Ive tackled is the problem of brain
-            fog.
-          </p>
-          <p>
-            More and more patients are feeling spaced out, scattered and
-            forgetful nowadays.
-          </p>
-          <p>
-            And not elderly folks in their final years like youd expect, but
-            younger people in their 40s, 50s and 60s.
-          </p>
-          <p>
-            For some, its just the embarrassment of “Senior Moments” that
-            worries them, but for others it gets downright scary&hellip;
-          </p>
-          <p>
-            Making it hard to do their jobs, putting stress on their families,
-            or even threatening their independence.
-          </p>
-          <p>
-            But to solve the mystery, first we need to understand the real
-            reason folks get brain fog.
-          </p>
+          </div>
         </section>
       </main>
 
